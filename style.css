@@ -356,7 +356,7 @@ ul.register li:hover .register-form, ul.login li:hover .login-form {
 /*  2.2.1 Header Logo
 /*----------------------------------------*/
 .logo > a {display: inline-block}
-.logo {padding: 34px 0}
+.logo {padding: 18px}
 .header-logo-menu.stick .logo {padding: 10px 0}
 /*----------------------------------------*/
 /*  2.2.2 Header Mainmenu
@@ -2334,7 +2334,12 @@ header.header-four, header.header-five {
     float: left;
     padding: 19px 0;
 }
-.header-five .mainmenu-area {
+.mainmenu-area {
+    display: inline-block;
+    float: left;
+    padding: 6px 0 0;
+}
+.header-five{
     display: inline-block;
     float: right;
     padding: 6px 0 0;
